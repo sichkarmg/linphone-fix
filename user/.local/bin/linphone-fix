@@ -1,0 +1,14 @@
+#!/bin/bash
+# Autor sichkarmg 2023 v1
+# https://github.com/sichkarmg/linphone-fix
+
+
+if [ "$@" ];then
+#    CLEAR=`echo $@ | sed "s/sip://g;s/tel://g"`
+    CLEAR=`echo $@ | sed 's/^.*://'`
+    /usr/bin/linphone -c " $CLEAR" &
+else
+    /usr/bin/linphone &
+fi
+
+#echo "/usr/bin/linphone -c $CLEAR" >> /tmp/linphone-fix.log

@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name=Linphone
+GenericName=Web-phone
+Comment=Linphone fix
+Type=Application
+Exec=linphone-fix %u
+Icon=linphone
+Terminal=false
+Categories=Network;Telephony;
+Keywords=messaging;im;sip;voip;
+MimeType=x-scheme-handler/sip-linphone;x-scheme-handler/callto;x-scheme-handler/tel;x-scheme-handler/sip;
+
+# Translations
+Name[de]=Linphone
+Name[he]=Linphone
+Name[ar]=لِنْفُونْ
+Name[hu]=Linphone
+Name[ru]=Linphone
+Name[nb_NO]=Linphone
+Name[it]=Linphone
+Name[ja]=Linphone
+Name[cs]=Linphone
+Name[sr]=Линфон
+Name[sv]=Linphone
+Name[zh_CN]=Linphone
+Name[fr]=Linphone
+Name[zh_TW]=Linphone
